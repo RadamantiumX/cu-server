@@ -1,0 +1,16 @@
+type User {
+    id: String!
+    email: String!
+    username: String!
+}
+
+type Token {
+    value: String!
+}
+
+type Mutation {
+    login(
+        email: String!
+        password: String!
+    )
+}
